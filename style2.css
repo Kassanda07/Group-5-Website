@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    background-image: url(./image/blr.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+nav {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5a6979;
+}
+.logo {
+    width: 30%;
+}
+.navbar-links {
+    width: 50%;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+ul li {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 80px;
+    list-style-type: none;
+}
+.logo h1 {
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: whitesmoke;
+    float: right;
+}
+li:hover {
+    transition: all 0.5s ease-in;
+    background-color: #688399;
+}
+body {
+    background-color: #a9bdce;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5cap;
+    text-align: center;
+}
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.2cap;
+    background-color: #88a7bb;
+    height: 23cap;
+    width: 52%;
+    font-weight: 200;
+    border-radius: 5cap;
+}
+.image {
+    float: right;
+}
+div {
+    display: inline-block;
+    width: 40%;
+}
